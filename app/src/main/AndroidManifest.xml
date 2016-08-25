@@ -44,7 +44,8 @@
             android:process="com.qq.send.service" />
 
         <activity android:name=".process.ProcessActivity" />
-        <activity android:name=".multithread.asynctask.AsyncTaskActivity"></activity>
+        <activity android:name=".multithread.asynctask.AsyncTaskActivity" />
+        <activity android:name=".multithread.sync.SyncActivity"></activity>
     </application>
 
 </manifest>

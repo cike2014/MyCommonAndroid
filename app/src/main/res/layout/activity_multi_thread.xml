@@ -21,6 +21,12 @@
             android:text="@string/handlerthread"
             android:textAllCaps="false"/>
 
+        <Button
+            android:id="@+id/bt_sync"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/thread_sync"/>
+
     </LinearLayout>
 
 

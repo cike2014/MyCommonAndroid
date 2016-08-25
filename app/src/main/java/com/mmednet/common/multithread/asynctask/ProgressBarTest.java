@@ -41,6 +41,7 @@ public class ProgressBarTest extends AppCompatActivity {
                 if(isCancelled()){
                     break;
                 }
+                //调用publishProgress才会执行onProcessUpdate方法
                 publishProgress(i);
                 try {
                     Thread.sleep(300);

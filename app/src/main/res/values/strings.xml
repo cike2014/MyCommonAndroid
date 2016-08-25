@@ -12,4 +12,7 @@
     <string name="handlerthread">HandlerThread详解</string>
     <string name="bt_async_progress">bt_async_progress</string>
     <string name="bt_async_image">bt_async_image</string>
+    <string name="request_net">开启子线程请求网络数据</string>
+    <string name="join">Join方法详解</string>
+    <string name="thread_sync">线程同步</string>
 </resources>
