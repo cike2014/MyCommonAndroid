@@ -18,4 +18,6 @@
     <string name="countdownlatach">CountDownLatach详解</string>
     <string name="semaphore">Semaphore知识点详解</string>
     <string name="cyclicbarrier">CyclicBarrier知识点详解</string>
+    <string name="timer">timer知识点详解</string>
+    <string name="countdowntimer">countdowntimer知识点详解</string>
 </resources>

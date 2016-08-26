@@ -27,6 +27,13 @@
             android:layout_height="wrap_content"
             android:text="@string/thread_sync"/>
 
+        <Button
+            android:id="@+id/bt_timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="android中计时与倒计时实现"
+            android:textAllCaps="false"/>
+
     </LinearLayout>
 
 
