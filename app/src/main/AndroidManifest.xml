@@ -45,7 +45,8 @@
 
         <activity android:name=".process.ProcessActivity" />
         <activity android:name=".multithread.asynctask.AsyncTaskActivity" />
-        <activity android:name=".multithread.sync.SyncActivity"></activity>
+        <activity android:name=".multithread.sync.SyncActivity" />
+        <activity android:name=".multithread.sync.CyclicBarrierActivity"></activity>
     </application>
 
 </manifest>

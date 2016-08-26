@@ -15,4 +15,7 @@
     <string name="request_net">开启子线程请求网络数据</string>
     <string name="join">Join方法详解</string>
     <string name="thread_sync">线程同步</string>
+    <string name="countdownlatach">CountDownLatach详解</string>
+    <string name="semaphore">Semaphore知识点详解</string>
+    <string name="cyclicbarrier">CyclicBarrier知识点详解</string>
 </resources>
