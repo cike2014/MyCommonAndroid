@@ -20,4 +20,6 @@
     <string name="cyclicbarrier">CyclicBarrier知识点详解</string>
     <string name="timer">timer知识点详解</string>
     <string name="countdowntimer">countdowntimer知识点详解</string>
+    <string name="rxandroid">RxAndroid知识点详解</string>
+    <string name="loadimage">加载图片</string>
 </resources>

@@ -26,6 +26,13 @@
             android:layout_centerHorizontal="true"
             android:text="@string/process" />
 
+        <Button
+            android:id="@+id/bt_rx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="@string/rxandroid"/>
+
 
     </LinearLayout>
 

@@ -8,20 +8,24 @@ import android.widget.Button;
 
 import com.mmednet.common.multithread.MultiThreadActivity;
 import com.mmednet.common.process.ProcessActivity;
+import com.mmednet.common.rxandroid.RxActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Button mBtMultiThread;
     private Button mBtProcess;
+    private Button mBtRx;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mBtMultiThread = (Button) this.findViewById(R.id.bt_multithread);
         mBtProcess = (Button) this.findViewById(R.id.bt_process);
+        mBtRx = (Button) this.findViewById(R.id.bt_rx);
 
         mBtMultiThread.setOnClickListener(this);
         mBtProcess.setOnClickListener(this);
+        mBtRx.setOnClickListener(this);
     }
 
     @Override
@@ -35,6 +39,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.bt_process:
 
                 startActivity(new Intent(this, ProcessActivity.class));
+
+                break;
+            case R.id.bt_rx:
+
+                startActivity(new Intent(this, RxActivity.class));
 
                 break;
         }
