@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.mmednet.common">
+          package="com.mmednet.common">
 
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
 
     <application
+        android:name=".retrofit.App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -15,40 +16,44 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".multithread.MultiThreadActivity" />
-        <activity android:name=".multithread.asynctask.ImageTest" />
-        <activity android:name=".multithread.asynctask.ProgressBarTest" />
-        <activity android:name=".multithread.handlerthread.HandlerThreadActivity" />
-        <activity android:name=".multithread.download.DownloadActivity" />
+        <activity android:name=".multithread.MultiThreadActivity"/>
+        <activity android:name=".multithread.asynctask.ImageTest"/>
+        <activity android:name=".multithread.asynctask.ProgressBarTest"/>
+        <activity android:name=".multithread.handlerthread.HandlerThreadActivity"/>
+        <activity android:name=".multithread.download.DownloadActivity"/>
 
         <service
             android:name=".multithread.download.DownloadService"
             android:enabled="true"
-            android:exported="true" />
+            android:exported="true"/>
 
         <meta-data
             android:name="XMHT_APPNAME"
-            android:value="test" />
+            android:value="test"/>
 
-        <activity android:name=".process.ipc.IPCActivity" />
+        <activity android:name=".process.ipc.IPCActivity"/>
 
         <service
             android:name=".process.ipc.IPCService"
             android:enabled="true"
             android:exported="true"
-            android:process="com.qq.send.service" />
+            android:process="com.qq.send.service"/>
 
-        <activity android:name=".process.ProcessActivity" />
-        <activity android:name=".multithread.asynctask.AsyncTaskActivity" />
-        <activity android:name=".multithread.sync.SyncActivity" />
-        <activity android:name=".multithread.sync.CyclicBarrierActivity" />
-        <activity android:name=".multithread.timer.TimerActivity" />
-        <activity android:name=".rxandroid.RxActivity"></activity>
+        <activity android:name=".process.ProcessActivity"/>
+        <activity android:name=".multithread.asynctask.AsyncTaskActivity"/>
+        <activity android:name=".multithread.sync.SyncActivity"/>
+        <activity android:name=".multithread.sync.CyclicBarrierActivity"/>
+        <activity android:name=".multithread.timer.TimerActivity"/>
+        <activity android:name=".rxandroid.RxActivity"/>
+        <activity android:name=".okhttp.sample_okhttp.OKHttpActivity"/>
+        <activity android:name=".okhttp.sample_okhttp.MyOkHttpActivity"/>
+        <activity android:name=".retrofit.RetrofitActivity"/>
+        <activity android:name=".retrofit.MainActivity"/>
     </application>
 
 </manifest>

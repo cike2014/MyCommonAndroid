@@ -33,6 +33,20 @@
             android:textAllCaps="false"
             android:text="@string/rxandroid"/>
 
+        <Button
+            android:id="@+id/bt_okhttp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="OkHttp知识点详解"/>
+
+        <Button
+            android:id="@+id/bt_retrofit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="@string/retrofit"/>
+
 
     </LinearLayout>
 
