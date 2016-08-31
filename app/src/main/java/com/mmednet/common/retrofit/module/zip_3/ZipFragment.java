@@ -56,11 +56,14 @@ public class ZipFragment extends BaseFragment {
         }
     };
 
+
+
     @OnClick(R.id.zipLoadBt)
     void load() {
         swipeRefreshLayout.setRefreshing(true);
         unsubscribe();
-        subscription = Observable.zip(Network.getGankApi().getBeauties(200, 1).map(GankBeautyResultToItemsMapper.getInstance()),
+        subscription = Observable.zip(
+                Network.getGankApi().getBeauties(200, 1).map(GankBeautyResultToItemsMapper.getInstance()),
                 Network.getZhuangbiApi().search("装逼"),
                 new Func2<List<Item>, List<ZhuangbiImage>, List<Item>>() {
                     @Override
