@@ -47,6 +47,21 @@
             android:textAllCaps="false"
             android:text="@string/retrofit"/>
 
+        <Button
+            android:id="@+id/bt_retrofit_rxjava"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="@string/retrofit_rxjava"/>
+        <Button
+            android:id="@+id/bt_rxjava"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="@string/rxjava"/>
+
+
+
 
     </LinearLayout>
 

@@ -52,8 +52,13 @@
         <activity android:name=".rxandroid.RxActivity"/>
         <activity android:name=".okhttp.sample_okhttp.OKHttpActivity"/>
         <activity android:name=".okhttp.sample_okhttp.MyOkHttpActivity"/>
-        <activity android:name=".retrofit.RetrofitActivity"/>
         <activity android:name=".retrofit.MainActivity"/>
+        <activity android:name=".retrofit2.RetrofitTestActivity">
+        </activity>
+        <activity android:name=".retrofit2.BaseActivity">
+        </activity>
+        <activity android:name=".rxjava.RxJavaActiviy">
+        </activity>
     </application>
 
 </manifest>

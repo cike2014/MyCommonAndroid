@@ -1,21 +1,20 @@
-package com.mmednet.common.retrofit;
+package com.mmednet.common.retrofit2;
 
 import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
 
 /**
- * Created by alpha on 2016/8/29.
+ * Created by alpha on 2016/8/31.
  */
-public class Article {
-
+public class Gank {
     @SerializedName("error")
     public boolean error;
-
     @SerializedName("results")
-    public List<Result> results;
+    public List<Content> results;
 
-    class Result {
+    class Content {
+
         @SerializedName("_id")
         public String _id;
         @SerializedName("content")
@@ -27,7 +26,7 @@ public class Article {
 
         @Override
         public String toString() {
-            return "Result{" +
+            return "Content{" +
                     "_id='" + _id + '\'' +
                     ", content='" + content + '\'' +
                     ", publishedAt='" + publishedAt + '\'' +
@@ -36,10 +35,9 @@ public class Article {
         }
     }
 
-
     @Override
     public String toString() {
-        return "Article{" +
+        return "Gan{" +
                 "error=" + error +
                 ", results=" + results +
                 '}';
